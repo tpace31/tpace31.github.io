@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A collection of computational biology models, simulations, and applied mathematics projects."
+  },
+  {
+    "objectID": "projects.html#ant-foraging-simulation",
+    "href": "projects.html#ant-foraging-simulation",
+    "title": "Projects",
+    "section": "Ant Foraging Simulation",
+    "text": "Ant Foraging Simulation\n\nDescription:\nAn agent-based stochastic simulation investigating how localized interactions and pheromone gradient fields lead to optimal foraging routes and resource gathering efficiency.\nPython Stochastic Modeling Differential Equations Simulation\n\n\nPreview Methodology & Equations\n\n\nMathematical Formulation\nPheromone trail concentration \\(P(x, y, t)\\) across the continuous spatial domain is modeled incorporating both diffusion and exponential decay:\n\\[\\frac{\\partial P}{\\partial t} = D \\nabla^2 P - \\gamma P + S(x, y, t)\\]\nWhere: * \\(D\\) is the spatial diffusion coefficient. * \\(\\gamma\\) is the natural evaporation rate constant. * \\(S(x, y, t)\\) represents pheromone deposition by returning foragers.\nView Repository on GitHub \\(\\rightarrow\\)"
+  },
+  {
+    "objectID": "projects.html#propofol-clearance-pharmacokinetics",
+    "href": "projects.html#propofol-clearance-pharmacokinetics",
+    "title": "Projects",
+    "section": "Propofol Clearance & Pharmacokinetics",
+    "text": "Propofol Clearance & Pharmacokinetics\n\nDescription:\nA three-compartment pharmacokinetic model evaluating the distribution, clearance kinetics, and dynamic equilibrium of propofol in central and peripheral tissue volumes during clinical infusion protocols.\nPython R Pharmacokinetics ODEs Numerical Integration\n\n\nPreview Compartment Model\n\n\nSystem of Differential Equations\nThe rate of change of drug mass in the central compartment \\(x_1(t)\\) and peripheral compartments \\(x_2(t), x_3(t)\\) is expressed by:\n\\[\\frac{dx_1}{dt} = I(t) - (k_{10} + k_{12} + k_{13})x_1 + k_{21}x_2 + k_{31}x_3\\]\n\\[\\frac{dx_2}{dt} = k_{12}x_1 - k_{21}x_2\\]\n\\[\\frac{dx_3}{dt} = k_{13}x_1 - k_{31}x_3\\]\nWhere \\(I(t)\\) is the input infusion rate and \\(k_{ij}\\) are inter-compartmental micro-rate transfer constants.\nView Repository on GitHub \\(\\rightarrow\\)"
+  },
+  {
+    "objectID": "projects.html#applied-mathematics-computational-labs",
+    "href": "projects.html#applied-mathematics-computational-labs",
+    "title": "Projects",
+    "section": "Applied Mathematics & Computational Labs",
+    "text": "Applied Mathematics & Computational Labs\n\nDescription:\nA comprehensive repository containing numerical analysis algorithms, statistical modeling routines, and linear algebraic computational methods implemented from scratch.\nPython C++ Numerical Analysis Algorithms\n\n\nPreview Key Topics Covered\n\n\nLinear Solvers & Factorizations: QR Decomposition, SVD, LU factorizations.\nOptimization & Root Finding: Newton’s method, gradient descent variants, interior-point algorithms.\nDynamical Systems: Runge-Kutta numerical integration (\\(RK4\\)) and stability analysis.\n\nView Repository on GitHub \\(\\rightarrow\\)"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am always interested in discussing mathematical modeling, computational biology collaborations, or prospective analytics and engineering roles. Feel free to reach out directly through any of the channels below.\n\n\n \n\n&lt;div style=\"font-size: 0.85rem; color: #6c757d;\"&gt;Email&lt;/div&gt;\n&lt;div&gt;your.email@example.com&lt;/div&gt;\n\n\n \n\n&lt;div style=\"font-size: 0.85rem; color: #6c757d;\"&gt;LinkedIn&lt;/div&gt;\n&lt;div&gt;Connect on LinkedIn&lt;/div&gt;\n\n\n \n\n&lt;div style=\"font-size: 0.85rem; color: #6c757d;\"&gt;GitHub&lt;/div&gt;\n&lt;div&gt;github.com/tpace31&lt;/div&gt;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I specialize in applied mathematics with a focus on mathematical biology, statistical modeling, and scientific computing. My academic and computational work centers on modeling biological systems and extracting quantitative insights from complex data."
+  },
+  {
+    "objectID": "about.html#biography",
+    "href": "about.html#biography",
+    "title": "About Me",
+    "section": "",
+    "text": "I specialize in applied mathematics with a focus on mathematical biology, statistical modeling, and scientific computing. My academic and computational work centers on modeling biological systems and extracting quantitative insights from complex data."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nBachelor of Science in Applied Mathematics\nEmphasis in Mathematical Biology\n* Key Coursework: Dynamical Systems, Partial Differential Equations, Statistical Modeling, Machine Learning, Numerical Analysis, Computational Biology."
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About Me",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming & Scientific Computing: Python (NumPy, SciPy, Pandas, Matplotlib, SymPy), C++, R, LaTeX\nMathematical & Statistical Modeling: Differential Equations, Pharmacokinetics, Compartmental Modeling, Stochastic Simulation, Optimization, Parameter Estimation\nDeveloper Tools: Git, GitHub, Quarto, VS Code, Linux/Bash"
+  },
+  {
+    "objectID": "about.html#experience-research",
+    "href": "about.html#experience-research",
+    "title": "About Me",
+    "section": "Experience & Research",
+    "text": "Experience & Research\nMathematics Research Assistant\n* Designed and implemented computational models to simulate biological and dynamical processes. * Developed algorithms in Python and R for parameter estimation and data visualization.\nResident Assistant\n* Facilitated residential community development, managed conflict resolution, and organized large-scale educational programs."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "Interests",
+    "text": "Interests\nWhen away from the terminal, I enjoy: * Outdoor Exploration: Backpacking, trail hiking, and road trips. * Cooking: Scratch cooking, meal planning, and experimenting with regional recipes. * Fiction: Thrillers and survival fiction with airtight plot structures."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tyler Pace",
+    "section": "",
+    "text": "I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.\nExplore my core projects below or visit the full Projects page for in-depth writeups and methodology breakdowns."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Tyler Pace",
+    "section": "",
+    "text": "I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.\nExplore my core projects below or visit the full Projects page for in-depth writeups and methodology breakdowns."
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Tyler Pace",
+    "section": "Featured Work",
+    "text": "Featured Work\n\nAnt Foraging Simulation\nAn agent-based stochastic simulation and differential equation model exploring collective decision-making, pheromone trail decay, and food source discovery dynamics.\n\n\nPropofol Pharmacokinetics & Clearance Model\nA multi-compartment pharmacokinetic model examining clearance rates, drug redistribution, and concentration profiles under continuous and bolus infusions.\n\n\nApplied Mathematics & Modeling Labs\nA curated suite of laboratory implementations covering numerical methods, dynamical systems, data analysis, and optimization algorithms.\n\nView All Projects & Code \\(\\rightarrow\\)"
+  }
+]

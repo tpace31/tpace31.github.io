@@ -1,0 +1,97 @@
+---
+title: "Projects"
+---
+
+A collection of computational biology models, simulations, and applied mathematics projects.
+
+---
+
+::: {#ant-foraging-simulation .project-card}
+## [Ant Foraging Simulation](https://github.com/tpace31){target="_blank"}
+
+![](images/ants-preview.png){width=100% style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;"}
+
+**Description:**  
+An agent-based stochastic simulation investigating how localized interactions and pheromone gradient fields lead to optimal foraging routes and resource gathering efficiency.
+
+<span class="skill-tag">Python</span>
+<span class="skill-tag">Stochastic Modeling</span>
+<span class="skill-tag">Differential Equations</span>
+<span class="skill-tag">Simulation</span>
+
+<details class="project-preview">
+<summary>Preview Methodology & Equations</summary>
+
+### Mathematical Formulation
+Pheromone trail concentration $P(x, y, t)$ across the continuous spatial domain is modeled incorporating both diffusion and exponential decay:
+
+$$\frac{\partial P}{\partial t} = D \nabla^2 P - \gamma P + S(x, y, t)$$
+
+Where:
+* $D$ is the spatial diffusion coefficient.
+* $\gamma$ is the natural evaporation rate constant.
+* $S(x, y, t)$ represents pheromone deposition by returning foragers.
+
+[View Repository on GitHub $\rightarrow$](https://github.com/tpace31){.btn .btn-sm .btn-primary style="margin-top: 0.5rem;"}
+</details>
+:::
+
+---
+
+::: {#propofol-pharmacokinetics .project-card}
+## [Propofol Clearance & Pharmacokinetics](https://github.com/tpace31){target="_blank"}
+
+![](images/propofol-preview.png){width=100% style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;"}
+
+**Description:**  
+A three-compartment pharmacokinetic model evaluating the distribution, clearance kinetics, and dynamic equilibrium of propofol in central and peripheral tissue volumes during clinical infusion protocols.
+
+<span class="skill-tag">Python</span>
+<span class="skill-tag">R</span>
+<span class="skill-tag">Pharmacokinetics</span>
+<span class="skill-tag">ODEs</span>
+<span class="skill-tag">Numerical Integration</span>
+
+<details class="project-preview">
+<summary>Preview Compartment Model</summary>
+
+### System of Differential Equations
+The rate of change of drug mass in the central compartment $x_1(t)$ and peripheral compartments $x_2(t), x_3(t)$ is expressed by:
+
+$$\frac{dx_1}{dt} = I(t) - (k_{10} + k_{12} + k_{13})x_1 + k_{21}x_2 + k_{31}x_3$$
+
+$$\frac{dx_2}{dt} = k_{12}x_1 - k_{21}x_2$$
+
+$$\frac{dx_3}{dt} = k_{13}x_1 - k_{31}x_3$$
+
+Where $I(t)$ is the input infusion rate and $k_{ij}$ are inter-compartmental micro-rate transfer constants.
+
+[View Repository on GitHub $\rightarrow$](https://github.com/tpace31){.btn .btn-sm .btn-primary style="margin-top: 0.5rem;"}
+</details>
+:::
+
+---
+
+::: {#computational-labs .project-card}
+## [Applied Mathematics & Computational Labs](https://github.com/tpace31/acme_labs){target="_blank"}
+
+![](images/labs-preview.png){width=100% style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;"}
+
+**Description:**  
+A comprehensive repository containing numerical analysis algorithms, statistical modeling routines, and linear algebraic computational methods implemented from scratch.
+
+<span class="skill-tag">Python</span>
+<span class="skill-tag">C++</span>
+<span class="skill-tag">Numerical Analysis</span>
+<span class="skill-tag">Algorithms</span>
+
+<details class="project-preview">
+<summary>Preview Key Topics Covered</summary>
+
+* **Linear Solvers & Factorizations:** QR Decomposition, SVD, LU factorizations.
+* **Optimization & Root Finding:** Newton's method, gradient descent variants, interior-point algorithms.
+* **Dynamical Systems:** Runge-Kutta numerical integration ($RK4$) and stability analysis.
+
+[View Repository on GitHub $\rightarrow$](https://github.com/tpace31/acme_labs){.btn .btn-sm .btn-primary style="margin-top: 0.5rem;"}
+</details>
+:::

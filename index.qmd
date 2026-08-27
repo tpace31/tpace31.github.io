@@ -1,0 +1,47 @@
+---
+title: "Tyler Pace"
+about:
+  template: trestles
+  image: profile.jpg # Place a photo named profile.jpg in your folder
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/tpace31
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/your-profile
+    - icon: envelope
+      text: Email
+      href: mailto:your.email@example.com
+    - icon: file-earmark-pdf
+      text: Resume
+      href: resume.pdf # Place your resume.pdf in your folder
+---
+
+## Welcome
+
+I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.
+
+Explore my core projects below or visit the full [Projects page](projects.qmd) for in-depth writeups and methodology breakdowns.
+
+---
+
+## Featured Work
+
+::: {.project-card}
+### [Ant Foraging Simulation](projects.qmd#ant-foraging-simulation)
+An agent-based stochastic simulation and differential equation model exploring collective decision-making, pheromone trail decay, and food source discovery dynamics.
+:::
+
+::: {.project-card}
+### [Propofol Pharmacokinetics & Clearance Model](projects.qmd#propofol-pharmacokinetics)
+A multi-compartment pharmacokinetic model examining clearance rates, drug redistribution, and concentration profiles under continuous and bolus infusions.
+:::
+
+::: {.project-card}
+### [Applied Mathematics & Modeling Labs](projects.qmd#computational-labs)
+A curated suite of laboratory implementations covering numerical methods, dynamical systems, data analysis, and optimization algorithms.
+:::
+
+[View All Projects & Code $\rightarrow$](projects.qmd){.btn .btn-outline-primary .btn-sm}

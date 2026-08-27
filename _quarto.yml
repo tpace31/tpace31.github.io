@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Tyler Pace"
+  navbar:
+    background: primary
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/tpace31
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/your-profile
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:your.email@example.com
+        aria-label: Email
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: false

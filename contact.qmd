@@ -1,0 +1,35 @@
+---
+title: "Contact"
+---
+
+I am always interested in discussing mathematical modeling, computational biology collaborations, or prospective analytics and engineering roles. Feel free to reach out directly through any of the channels below.
+
+---
+
+::: {style="max-width: 550px; margin-top: 1.5rem;"}
+
+<a href="mailto:your.email@example.com" class="contact-btn">
+  <i class="bi bi-envelope-fill" style="font-size: 1.5rem; color: #2d5a27;"></i>
+  <div>
+    <div style="font-size: 0.85rem; color: #6c757d;">Email</div>
+    <div>your.email@example.com</div>
+  </div>
+</a>
+
+<a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-btn">
+  <i class="bi bi-linkedin" style="font-size: 1.5rem; color: #2d5a27;"></i>
+  <div>
+    <div style="font-size: 0.85rem; color: #6c757d;">LinkedIn</div>
+    <div>Connect on LinkedIn</div>
+  </div>
+</a>
+
+<a href="https://github.com/tpace31" target="_blank" class="contact-btn">
+  <i class="bi bi-github" style="font-size: 1.5rem; color: #2d5a27;"></i>
+  <div>
+    <div style="font-size: 0.85rem; color: #6c757d;">GitHub</div>
+    <div>github.com/tpace31</div>
+  </div>
+</a>
+
+:::

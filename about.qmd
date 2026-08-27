@@ -1,0 +1,42 @@
+---
+title: "About Me"
+---
+
+## Biography
+I specialize in applied mathematics with a focus on mathematical biology, statistical modeling, and scientific computing. My academic and computational work centers on modeling biological systems and extracting quantitative insights from complex data.
+
+---
+
+## Education
+
+**Bachelor of Science in Applied Mathematics**  
+*Emphasis in Mathematical Biology*  
+* Key Coursework: Dynamical Systems, Partial Differential Equations, Statistical Modeling, Machine Learning, Numerical Analysis, Computational Biology.
+
+---
+
+## Technical Skills
+
+* **Programming & Scientific Computing:** Python (`NumPy`, `SciPy`, `Pandas`, `Matplotlib`, `SymPy`), C++, R, LaTeX
+* **Mathematical & Statistical Modeling:** Differential Equations, Pharmacokinetics, Compartmental Modeling, Stochastic Simulation, Optimization, Parameter Estimation
+* **Developer Tools:** Git, GitHub, Quarto, VS Code, Linux/Bash
+
+---
+
+## Experience & Research
+
+**Mathematics Research Assistant**  
+* Designed and implemented computational models to simulate biological and dynamical processes.
+* Developed algorithms in Python and R for parameter estimation and data visualization.
+
+**Resident Assistant**  
+* Facilitated residential community development, managed conflict resolution, and organized large-scale educational programs.
+
+---
+
+## Interests
+
+When away from the terminal, I enjoy:
+* **Outdoor Exploration:** Backpacking, trail hiking, and road trips.
+* **Cooking:** Scratch cooking, meal planning, and experimenting with regional recipes.
+* **Fiction:** Thrillers and survival fiction with airtight plot structures.
