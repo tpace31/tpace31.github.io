@@ -73,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -205,21 +176,15 @@ window.Quarto = {
 <p>Explore my core projects below or visit the full <a href="./projects.html">Projects page</a> for in-depth writeups and methodology breakdowns.</p>
 <hr>
 </section>
-<section id="featured-work" class="level2">
-<h2 data-anchor-id="featured-work">Featured Work</h2>
-<section id="ant-foraging-simulation" class="level3 project-card">
-<h3 data-anchor-id="ant-foraging-simulation"><a href="./projects.html#ant-foraging-simulation">Ant Foraging Simulation</a></h3>
-<p>An agent-based stochastic simulation and differential equation model exploring collective decision-making, pheromone trail decay, and food source discovery dynamics.</p>
-</section>
-<section id="propofol-pharmacokinetics-clearance-model" class="level3 project-card">
-<h3 data-anchor-id="propofol-pharmacokinetics-clearance-model"><a href="./projects.html#propofol-pharmacokinetics">Propofol Pharmacokinetics &amp; Clearance Model</a></h3>
-<p>A multi-compartment pharmacokinetic model examining clearance rates, drug redistribution, and concentration profiles under continuous and bolus infusions.</p>
-</section>
-<section id="applied-mathematics-modeling-labs" class="level3 project-card">
-<h3 data-anchor-id="applied-mathematics-modeling-labs"><a href="./projects.html#computational-labs">Applied Mathematics &amp; Modeling Labs</a></h3>
-<p>A curated suite of laboratory implementations covering numerical methods, dynamical systems, data analysis, and optimization algorithms.</p>
-</section>
-<p><a href="./projects.html" class="btn btn-outline-primary btn-sm">View All Projects &amp; Code <span class="math inline">\(\rightarrow\)</span></a></p>
+<section id="featured-projects" class="level2">
+<h2 data-anchor-id="featured-projects">Featured Projects</h2>
+<ul>
+<li><strong><a href="./projects.html">Predicting NYC Taxi Trip Duration</a>:</strong> Addressed operational uncertainty in the NYC taxi network by leveraging a random forest regression model against millions of TLC trip records to predict route duration and aid in next-location strategies[cite: 7].</li>
+<li><strong><a href="./projects.html">Identifying Consciousness Under Anesthesia</a>:</strong> Presented a two-stage machine learning pipeline to model the physical responses of 1,000 patients to propofol during surgery and identify demographic correlations to the anesthetic[cite: 5].</li>
+<li><strong><a href="./projects.html">Modeling Sleep Deprivation &amp; Toxin Buildup</a>:</strong> Developed and analyzed ODE models of the glymphatic system to investigate efficient sleep strategies and examine the potential to recover lost sleep[cite: 6].</li>
+<li><strong><a href="./projects.html">Ant Colony Resource Optimization</a>:</strong> Explored optimal resource allocation strategies for ant colonies at varying levels of complexity and under different competitive constraints[cite: 4].</li>
+</ul>
+<p><a href="./projects.html"><strong>View full abstracts and PDF writeups →</strong></a></p>
 
 
 </section>
@@ -292,7 +257,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/tpace31\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

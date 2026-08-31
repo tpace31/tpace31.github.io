@@ -4,28 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A collection of computational biology models, simulations, and applied mathematics projects."
-  },
-  {
-    "objectID": "projects.html#ant-foraging-simulation",
-    "href": "projects.html#ant-foraging-simulation",
-    "title": "Projects",
-    "section": "Ant Foraging Simulation",
-    "text": "Ant Foraging Simulation\n\nDescription:\nAn agent-based stochastic simulation investigating how localized interactions and pheromone gradient fields lead to optimal foraging routes and resource gathering efficiency.\nPython Stochastic Modeling Differential Equations Simulation\n\n\nPreview Methodology & Equations\n\n\nMathematical Formulation\nPheromone trail concentration \\(P(x, y, t)\\) across the continuous spatial domain is modeled incorporating both diffusion and exponential decay:\n\\[\\frac{\\partial P}{\\partial t} = D \\nabla^2 P - \\gamma P + S(x, y, t)\\]\nWhere: * \\(D\\) is the spatial diffusion coefficient. * \\(\\gamma\\) is the natural evaporation rate constant. * \\(S(x, y, t)\\) represents pheromone deposition by returning foragers.\nView Repository on GitHub \\(\\rightarrow\\)"
-  },
-  {
-    "objectID": "projects.html#propofol-clearance-pharmacokinetics",
-    "href": "projects.html#propofol-clearance-pharmacokinetics",
-    "title": "Projects",
-    "section": "Propofol Clearance & Pharmacokinetics",
-    "text": "Propofol Clearance & Pharmacokinetics\n\nDescription:\nA three-compartment pharmacokinetic model evaluating the distribution, clearance kinetics, and dynamic equilibrium of propofol in central and peripheral tissue volumes during clinical infusion protocols.\nPython R Pharmacokinetics ODEs Numerical Integration\n\n\nPreview Compartment Model\n\n\nSystem of Differential Equations\nThe rate of change of drug mass in the central compartment \\(x_1(t)\\) and peripheral compartments \\(x_2(t), x_3(t)\\) is expressed by:\n\\[\\frac{dx_1}{dt} = I(t) - (k_{10} + k_{12} + k_{13})x_1 + k_{21}x_2 + k_{31}x_3\\]\n\\[\\frac{dx_2}{dt} = k_{12}x_1 - k_{21}x_2\\]\n\\[\\frac{dx_3}{dt} = k_{13}x_1 - k_{31}x_3\\]\nWhere \\(I(t)\\) is the input infusion rate and \\(k_{ij}\\) are inter-compartmental micro-rate transfer constants.\nView Repository on GitHub \\(\\rightarrow\\)"
-  },
-  {
-    "objectID": "projects.html#applied-mathematics-computational-labs",
-    "href": "projects.html#applied-mathematics-computational-labs",
-    "title": "Projects",
-    "section": "Applied Mathematics & Computational Labs",
-    "text": "Applied Mathematics & Computational Labs\n\nDescription:\nA comprehensive repository containing numerical analysis algorithms, statistical modeling routines, and linear algebraic computational methods implemented from scratch.\nPython C++ Numerical Analysis Algorithms\n\n\nPreview Key Topics Covered\n\n\nLinear Solvers & Factorizations: QR Decomposition, SVD, LU factorizations.\nOptimization & Root Finding: Newton’s method, gradient descent variants, interior-point algorithms.\nDynamical Systems: Runge-Kutta numerical integration (\\(RK4\\)) and stability analysis.\n\nView Repository on GitHub \\(\\rightarrow\\)"
+    "text": "Projects\nBelow is a selection of my recent work in mathematical biology, statistical modeling, and data science.\n\n\nPredicting Operational Efficiency: NYC Taxi Trip Duration\ntaxi-predict | Python, Random Forest Regressor, Feature Engineering\nOperational uncertainty regarding trip duration and passenger acquisition represents a significant inefficiency within the New York City taxi network[cite: 7]. We address these challenges by leveraging a random forest regression model against the extensive historical dataset provided by the NYC Taxi and Limousine Commission to predict route duration and aid in next-location strategies[cite: 7]. By analyzing millions of meter-reported trip records, we employ data cleaning and machine learning techniques to derive trip time estimates and pickup location recommendations[cite: 7]. 📄 Download Full PDF | View Repository\n\n\n\nIdentifying Patients’ Levels of Consciousness Under Anesthesia\npharma-state | Python, Kalman Filters, Random Forest, Pharmacokinetics\nIn this paper we present a two-stage machine learning pipeline for the estimation and prediction of patients’ pharmacological parameters relating to the induction anesthetic propofol[cite: 5]. The first stage is to individually model the physical response that one thousand patients had to anesthesia during their surgical procedures[cite: 5]. The second stage is to identify correlations between the biological demographic of a patient and how they responded to the anesthetic[cite: 5]. 📄 Download Full PDF | View Repository\n\n\n\nSleep Deprivation Increases Toxin Buildup in the Brain\nglymphatic-ode | Python, Compartmental Modeling, ODEs, Lyapunov Stability\nIn this paper, we develop and analyze ODE models of the glymphatic system, focusing on soluble and fibular amyloid-beta, in order to investigate efficient strategies for obtaining sufficient sleep[cite: 6]. Using our results, we examine whether it is possible to recover lost sleep and explore alternative sleep strategies for achieving adequate rest[cite: 6]. 📄 Download Full PDF | View Repository\n\n\n\nAnt Colony Resource Optimization\ncolony-opt | Python, Optimal Control Theory, ODEs, SciPy\nWe explore optimal resource allocation strategies for ant colonies at varying levels of complexity and under different constraints[cite: 4]. This investigation provides a theoretical framework for competitive resource allocation that extends to economic strategies and other human applications[cite: 4]. 📄 Download Full PDF | View Repository"
   },
   {
     "objectID": "contact.html",
@@ -91,10 +70,10 @@
     "text": "I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.\nExplore my core projects below or visit the full Projects page for in-depth writeups and methodology breakdowns."
   },
   {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
     "title": "Tyler Pace",
-    "section": "Featured Work",
-    "text": "Featured Work\n\nAnt Foraging Simulation\nAn agent-based stochastic simulation and differential equation model exploring collective decision-making, pheromone trail decay, and food source discovery dynamics.\n\n\nPropofol Pharmacokinetics & Clearance Model\nA multi-compartment pharmacokinetic model examining clearance rates, drug redistribution, and concentration profiles under continuous and bolus infusions.\n\n\nApplied Mathematics & Modeling Labs\nA curated suite of laboratory implementations covering numerical methods, dynamical systems, data analysis, and optimization algorithms.\n\nView All Projects & Code \\(\\rightarrow\\)"
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\nPredicting NYC Taxi Trip Duration: Addressed operational uncertainty in the NYC taxi network by leveraging a random forest regression model against millions of TLC trip records to predict route duration and aid in next-location strategies[cite: 7].\nIdentifying Consciousness Under Anesthesia: Presented a two-stage machine learning pipeline to model the physical responses of 1,000 patients to propofol during surgery and identify demographic correlations to the anesthetic[cite: 5].\nModeling Sleep Deprivation & Toxin Buildup: Developed and analyzed ODE models of the glymphatic system to investigate efficient sleep strategies and examine the potential to recover lost sleep[cite: 6].\nAnt Colony Resource Optimization: Explored optimal resource allocation strategies for ant colonies at varying levels of complexity and under different competitive constraints[cite: 4].\n\nView full abstracts and PDF writeups →"
   }
 ]

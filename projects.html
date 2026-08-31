@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Tyler Pace</title>
+<title>projects – Tyler Pace</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -169,95 +140,41 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>A collection of computational biology models, simulations, and applied mathematics projects.</p>
+<section id="projects" class="level1">
+<h1>Projects</h1>
+<p>Below is a selection of my recent work in mathematical biology, statistical modeling, and data science.</p>
 <hr>
-<section id="ant-foraging-simulation" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="ant-foraging-simulation"><a href="https://github.com/tpace31" target="_blank">Ant Foraging Simulation</a></h2>
-<p><img src="images/ants-preview.png" class="img-fluid" style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;;width:100.0%"></p>
-<p><strong>Description:</strong><br>
-An agent-based stochastic simulation investigating how localized interactions and pheromone gradient fields lead to optimal foraging routes and resource gathering efficiency.</p>
-<p><span class="skill-tag">Python</span> <span class="skill-tag">Stochastic Modeling</span> <span class="skill-tag">Differential Equations</span> <span class="skill-tag">Simulation</span></p>
-<details class="project-preview">
-<summary>
-Preview Methodology &amp; Equations
-</summary>
-<section id="mathematical-formulation" class="level3">
-<h3 class="anchored" data-anchor-id="mathematical-formulation">Mathematical Formulation</h3>
-<p>Pheromone trail concentration <span class="math inline">\(P(x, y, t)\)</span> across the continuous spatial domain is modeled incorporating both diffusion and exponential decay:</p>
-<p><span class="math display">\[\frac{\partial P}{\partial t} = D \nabla^2 P - \gamma P + S(x, y, t)\]</span></p>
-<p>Where: * <span class="math inline">\(D\)</span> is the spatial diffusion coefficient. * <span class="math inline">\(\gamma\)</span> is the natural evaporation rate constant. * <span class="math inline">\(S(x, y, t)\)</span> represents pheromone deposition by returning foragers.</p>
-<a href="https://github.com/tpace31" class="btn btn-sm btn-primary" style="margin-top: 0.5rem;">View Repository on GitHub <span class="math inline">\(\rightarrow\)</span></a>
-</section></details>
-</section>
-
+<section id="predicting-operational-efficiency-nyc-taxi-trip-duration" class="level3">
+<h3 class="anchored" data-anchor-id="predicting-operational-efficiency-nyc-taxi-trip-duration">Predicting Operational Efficiency: NYC Taxi Trip Duration</h3>
+<p><strong>taxi-predict</strong> | <em>Python, Random Forest Regressor, Feature Engineering</em></p>
+<p>Operational uncertainty regarding trip duration and passenger acquisition represents a significant inefficiency within the New York City taxi network[cite: 7]. We address these challenges by leveraging a random forest regression model against the extensive historical dataset provided by the NYC Taxi and Limousine Commission to predict route duration and aid in next-location strategies[cite: 7]. By analyzing millions of meter-reported trip records, we employ data cleaning and machine learning techniques to derive trip time estimates and pickup location recommendations[cite: 7]. <a href="vol3_project1_writeup.pdf">📄 Download Full PDF</a> | <a href="https://github.com/tpace31/taxi-predict">View Repository</a></p>
 <hr>
-<div id="propofol-pharmacokinetics" class="project-card">
-<section id="propofol-clearance-pharmacokinetics" class="level2">
-<h2 class="anchored" data-anchor-id="propofol-clearance-pharmacokinetics"><a href="https://github.com/tpace31" target="_blank">Propofol Clearance &amp; Pharmacokinetics</a></h2>
-<p><img src="images/propofol-preview.png" class="img-fluid" style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;;width:100.0%"></p>
-<p><strong>Description:</strong><br>
-A three-compartment pharmacokinetic model evaluating the distribution, clearance kinetics, and dynamic equilibrium of propofol in central and peripheral tissue volumes during clinical infusion protocols.</p>
-<p><span class="skill-tag">Python</span> <span class="skill-tag">R</span> <span class="skill-tag">Pharmacokinetics</span> <span class="skill-tag">ODEs</span> <span class="skill-tag">Numerical Integration</span></p>
-<details class="project-preview">
-<summary>
-Preview Compartment Model
-</summary>
-<section id="system-of-differential-equations" class="level3">
-<h3 class="anchored" data-anchor-id="system-of-differential-equations">System of Differential Equations</h3>
-<p>The rate of change of drug mass in the central compartment <span class="math inline">\(x_1(t)\)</span> and peripheral compartments <span class="math inline">\(x_2(t), x_3(t)\)</span> is expressed by:</p>
-<p><span class="math display">\[\frac{dx_1}{dt} = I(t) - (k_{10} + k_{12} + k_{13})x_1 + k_{21}x_2 + k_{31}x_3\]</span></p>
-<p><span class="math display">\[\frac{dx_2}{dt} = k_{12}x_1 - k_{21}x_2\]</span></p>
-<p><span class="math display">\[\frac{dx_3}{dt} = k_{13}x_1 - k_{31}x_3\]</span></p>
-<p>Where <span class="math inline">\(I(t)\)</span> is the input infusion rate and <span class="math inline">\(k_{ij}\)</span> are inter-compartmental micro-rate transfer constants.</p>
-<a href="https://github.com/tpace31" class="btn btn-sm btn-primary" style="margin-top: 0.5rem;">View Repository on GitHub <span class="math inline">\(\rightarrow\)</span></a>
-</section></details>
 </section>
-
-</div>
+<section id="identifying-patients-levels-of-consciousness-under-anesthesia" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-patients-levels-of-consciousness-under-anesthesia">Identifying Patients’ Levels of Consciousness Under Anesthesia</h3>
+<p><strong>pharma-state</strong> | <em>Python, Kalman Filters, Random Forest, Pharmacokinetics</em></p>
+<p>In this paper we present a two-stage machine learning pipeline for the estimation and prediction of patients’ pharmacological parameters relating to the induction anesthetic propofol[cite: 5]. The first stage is to individually model the physical response that one thousand patients had to anesthesia during their surgical procedures[cite: 5]. The second stage is to identify correlations between the biological demographic of a patient and how they responded to the anesthetic[cite: 5]. <a href="vol3_project2_writeup.pdf">📄 Download Full PDF</a> | <a href="https://github.com/tpace31/pharma-state">View Repository</a></p>
 <hr>
-<div id="computational-labs" class="project-card">
-<section id="applied-mathematics-computational-labs" class="level2">
-<h2 class="anchored" data-anchor-id="applied-mathematics-computational-labs"><a href="https://github.com/tpace31/acme_labs" target="_blank">Applied Mathematics &amp; Computational Labs</a></h2>
-<p><img src="images/labs-preview.png" class="img-fluid" style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;;width:100.0%"></p>
-<p><strong>Description:</strong><br>
-A comprehensive repository containing numerical analysis algorithms, statistical modeling routines, and linear algebraic computational methods implemented from scratch.</p>
-<p><span class="skill-tag">Python</span> <span class="skill-tag">C++</span> <span class="skill-tag">Numerical Analysis</span> <span class="skill-tag">Algorithms</span></p>
-<details class="project-preview">
-<summary>
-Preview Key Topics Covered
-</summary>
-<ul>
-<li><strong>Linear Solvers &amp; Factorizations:</strong> QR Decomposition, SVD, LU factorizations.</li>
-<li><strong>Optimization &amp; Root Finding:</strong> Newton’s method, gradient descent variants, interior-point algorithms.</li>
-<li><strong>Dynamical Systems:</strong> Runge-Kutta numerical integration (<span class="math inline">\(RK4\)</span>) and stability analysis.</li>
-</ul>
-<a href="https://github.com/tpace31/acme_labs" class="btn btn-sm btn-primary" style="margin-top: 0.5rem;">View Repository on GitHub <span class="math inline">\(\rightarrow\)</span></a>
-</details>
 </section>
-</div>
+<section id="sleep-deprivation-increases-toxin-buildup-in-the-brain" class="level3">
+<h3 class="anchored" data-anchor-id="sleep-deprivation-increases-toxin-buildup-in-the-brain">Sleep Deprivation Increases Toxin Buildup in the Brain</h3>
+<p><strong>glymphatic-ode</strong> | <em>Python, Compartmental Modeling, ODEs, Lyapunov Stability</em></p>
+<p>In this paper, we develop and analyze ODE models of the glymphatic system, focusing on soluble and fibular amyloid-beta, in order to investigate efficient strategies for obtaining sufficient sleep[cite: 6]. Using our results, we examine whether it is possible to recover lost sleep and explore alternative sleep strategies for achieving adequate rest[cite: 6]. <a href="vol4_project1_writeup.pdf">📄 Download Full PDF</a> | <a href="https://github.com/tpace31/glymphatic-ode">View Repository</a></p>
+<hr>
+</section>
+<section id="ant-colony-resource-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="ant-colony-resource-optimization">Ant Colony Resource Optimization</h3>
+<p><strong>colony-opt</strong> | <em>Python, Optimal Control Theory, ODEs, SciPy</em></p>
+<p>We explore optimal resource allocation strategies for ant colonies at varying levels of complexity and under different constraints[cite: 4]. This investigation provides a theoretical framework for competitive resource allocation that extends to economic strategies and other human applications[cite: 4]. <a href="vol4_project2_writeup.pdf">📄 Download Full PDF</a> | <a href="https://github.com/tpace31/colony-opt">View Repository</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -333,7 +250,7 @@ Preview Key Topics Covered
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/tpace31\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
