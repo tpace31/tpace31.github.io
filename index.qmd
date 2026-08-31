@@ -27,21 +27,11 @@ Explore my core projects below or visit the full [Projects page](projects.qmd) f
 
 ---
 
-## Featured Work
+## Featured Projects
 
-::: {.project-card}
-### [Ant Foraging Simulation](projects.qmd#ant-foraging-simulation)
-An agent-based stochastic simulation and differential equation model exploring collective decision-making, pheromone trail decay, and food source discovery dynamics.
-:::
+*   **[Predicting NYC Taxi Trip Duration](projects.qmd):** Addressed operational uncertainty in the NYC taxi network by leveraging a random forest regression model against millions of TLC trip records to predict route duration and aid in next-location strategies[cite: 7].
+*   **[Identifying Consciousness Under Anesthesia](projects.qmd):** Presented a two-stage machine learning pipeline to model the physical responses of 1,000 patients to propofol during surgery and identify demographic correlations to the anesthetic[cite: 5].
+*   **[Modeling Sleep Deprivation & Toxin Buildup](projects.qmd):** Developed and analyzed ODE models of the glymphatic system to investigate efficient sleep strategies and examine the potential to recover lost sleep[cite: 6].
+*   **[Ant Colony Resource Optimization](projects.qmd):** Explored optimal resource allocation strategies for ant colonies at varying levels of complexity and under different competitive constraints[cite: 4].
 
-::: {.project-card}
-### [Propofol Pharmacokinetics & Clearance Model](projects.qmd#propofol-pharmacokinetics)
-A multi-compartment pharmacokinetic model examining clearance rates, drug redistribution, and concentration profiles under continuous and bolus infusions.
-:::
-
-::: {.project-card}
-### [Applied Mathematics & Modeling Labs](projects.qmd#computational-labs)
-A curated suite of laboratory implementations covering numerical methods, dynamical systems, data analysis, and optimization algorithms.
-:::
-
-[View All Projects & Code $\rightarrow$](projects.qmd){.btn .btn-outline-primary .btn-sm}
+[**View full abstracts and PDF writeups →**](projects.qmd)

@@ -1,97 +1,35 @@
----
-title: "Projects"
----
+# Projects
 
-A collection of computational biology models, simulations, and applied mathematics projects.
+Below is a selection of my recent work in mathematical biology, statistical modeling, and data science.
 
 ---
 
-::: {#ant-foraging-simulation .project-card}
-## [Ant Foraging Simulation](https://github.com/tpace31){target="_blank"}
+### Predicting Operational Efficiency: NYC Taxi Trip Duration
+**taxi-predict** | *Python, Random Forest Regressor, Feature Engineering*
 
-![](images/ants-preview.png){width=100% style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;"}
-
-**Description:**  
-An agent-based stochastic simulation investigating how localized interactions and pheromone gradient fields lead to optimal foraging routes and resource gathering efficiency.
-
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Stochastic Modeling</span>
-<span class="skill-tag">Differential Equations</span>
-<span class="skill-tag">Simulation</span>
-
-<details class="project-preview">
-<summary>Preview Methodology & Equations</summary>
-
-### Mathematical Formulation
-Pheromone trail concentration $P(x, y, t)$ across the continuous spatial domain is modeled incorporating both diffusion and exponential decay:
-
-$$\frac{\partial P}{\partial t} = D \nabla^2 P - \gamma P + S(x, y, t)$$
-
-Where:
-* $D$ is the spatial diffusion coefficient.
-* $\gamma$ is the natural evaporation rate constant.
-* $S(x, y, t)$ represents pheromone deposition by returning foragers.
-
-[View Repository on GitHub $\rightarrow$](https://github.com/tpace31){.btn .btn-sm .btn-primary style="margin-top: 0.5rem;"}
-</details>
-:::
+Operational uncertainty regarding trip duration and passenger acquisition represents a significant inefficiency within the New York City taxi network[cite: 7]. We address these challenges by leveraging a random forest regression model against the extensive historical dataset provided by the NYC Taxi and Limousine Commission to predict route duration and aid in next-location strategies[cite: 7]. By analyzing millions of meter-reported trip records, we employ data cleaning and machine learning techniques to derive trip time estimates and pickup location recommendations[cite: 7].
+[📄 Download Full PDF](vol3_project1_writeup.pdf) | [View Repository](https://github.com/tpace31/taxi-predict)
 
 ---
 
-::: {#propofol-pharmacokinetics .project-card}
-## [Propofol Clearance & Pharmacokinetics](https://github.com/tpace31){target="_blank"}
+### Identifying Patients' Levels of Consciousness Under Anesthesia
+**pharma-state** | *Python, Kalman Filters, Random Forest, Pharmacokinetics*
 
-![](images/propofol-preview.png){width=100% style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;"}
-
-**Description:**  
-A three-compartment pharmacokinetic model evaluating the distribution, clearance kinetics, and dynamic equilibrium of propofol in central and peripheral tissue volumes during clinical infusion protocols.
-
-<span class="skill-tag">Python</span>
-<span class="skill-tag">R</span>
-<span class="skill-tag">Pharmacokinetics</span>
-<span class="skill-tag">ODEs</span>
-<span class="skill-tag">Numerical Integration</span>
-
-<details class="project-preview">
-<summary>Preview Compartment Model</summary>
-
-### System of Differential Equations
-The rate of change of drug mass in the central compartment $x_1(t)$ and peripheral compartments $x_2(t), x_3(t)$ is expressed by:
-
-$$\frac{dx_1}{dt} = I(t) - (k_{10} + k_{12} + k_{13})x_1 + k_{21}x_2 + k_{31}x_3$$
-
-$$\frac{dx_2}{dt} = k_{12}x_1 - k_{21}x_2$$
-
-$$\frac{dx_3}{dt} = k_{13}x_1 - k_{31}x_3$$
-
-Where $I(t)$ is the input infusion rate and $k_{ij}$ are inter-compartmental micro-rate transfer constants.
-
-[View Repository on GitHub $\rightarrow$](https://github.com/tpace31){.btn .btn-sm .btn-primary style="margin-top: 0.5rem;"}
-</details>
-:::
+In this paper we present a two-stage machine learning pipeline for the estimation and prediction of patients' pharmacological parameters relating to the induction anesthetic propofol[cite: 5]. The first stage is to individually model the physical response that one thousand patients had to anesthesia during their surgical procedures[cite: 5]. The second stage is to identify correlations between the biological demographic of a patient and how they responded to the anesthetic[cite: 5].
+[📄 Download Full PDF](vol3_project2_writeup.pdf) | [View Repository](https://github.com/tpace31/pharma-state)
 
 ---
 
-::: {#computational-labs .project-card}
-## [Applied Mathematics & Computational Labs](https://github.com/tpace31/acme_labs){target="_blank"}
+### Sleep Deprivation Increases Toxin Buildup in the Brain
+**glymphatic-ode** | *Python, Compartmental Modeling, ODEs, Lyapunov Stability*
 
-![](images/labs-preview.png){width=100% style="max-height: 250px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem;"}
+In this paper, we develop and analyze ODE models of the glymphatic system, focusing on soluble and fibular amyloid-beta, in order to investigate efficient strategies for obtaining sufficient sleep[cite: 6]. Using our results, we examine whether it is possible to recover lost sleep and explore alternative sleep strategies for achieving adequate rest[cite: 6].
+[📄 Download Full PDF](vol4_project1_writeup.pdf) | [View Repository](https://github.com/tpace31/glymphatic-ode)
 
-**Description:**  
-A comprehensive repository containing numerical analysis algorithms, statistical modeling routines, and linear algebraic computational methods implemented from scratch.
+---
 
-<span class="skill-tag">Python</span>
-<span class="skill-tag">C++</span>
-<span class="skill-tag">Numerical Analysis</span>
-<span class="skill-tag">Algorithms</span>
+### Ant Colony Resource Optimization
+**colony-opt** | *Python, Optimal Control Theory, ODEs, SciPy*
 
-<details class="project-preview">
-<summary>Preview Key Topics Covered</summary>
-
-* **Linear Solvers & Factorizations:** QR Decomposition, SVD, LU factorizations.
-* **Optimization & Root Finding:** Newton's method, gradient descent variants, interior-point algorithms.
-* **Dynamical Systems:** Runge-Kutta numerical integration ($RK4$) and stability analysis.
-
-[View Repository on GitHub $\rightarrow$](https://github.com/tpace31/acme_labs){.btn .btn-sm .btn-primary style="margin-top: 0.5rem;"}
-</details>
-:::
+We explore optimal resource allocation strategies for ant colonies at varying levels of complexity and under different constraints[cite: 4]. This investigation provides a theoretical framework for competitive resource allocation that extends to economic strategies and other human applications[cite: 4].
+[📄 Download Full PDF](vol4_project2_writeup.pdf) | [View Repository](https://github.com/tpace31/colony-opt)
