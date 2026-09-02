@@ -9,21 +9,21 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
+      - href: pages/about.qmd
         text: About
-      - href: projects.qmd
+      - href: pages/projects.qmd
         text: Projects
-      - href: contact.qmd
+      - href: pages/contact.qmd
         text: Contact
     right:
       - icon: github
         href: https://github.com/tpace31
         aria-label: GitHub
       - icon: linkedin
-        href: https://linkedin.com/in/your-profile
+        href: http://www.linkedin.com/in/pace-tyler
         aria-label: LinkedIn
       - icon: envelope
-        href: mailto:your.email@example.com
+        href: mailto:tylerjpace1@gmail.com
         aria-label: Email
 
 format:
