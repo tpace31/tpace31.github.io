@@ -19,19 +19,30 @@ about:
       href: documents/tylerpace_resume_aug2026.pdf
 ---
 
-## Welcome
+::: {.py-4 .mb-5}
 
-I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.
+<h1 class="display-4 fw-bold text-primary">Tyler Pace</h1>
+<h2 class="fs-3 text-secondary mb-4">Applied Mathematics & Computational Modeling</h2>
 
-Explore my core projects below or visit the full [Projects page](pages/projects.qmd) for in-depth writeups and methodology breakdowns.
+<p class="lead">I leverage statistical modeling and computational tools to solve complex, ambiguous problems.</p>
+
+<p>Explore my core projects below or visit the full projects page for in-depth writeups and methodology breakdowns.</p>
+
+::: {.d-flex .gap-3 .mt-4}
+<a href="projects.qmd" class="btn btn-primary px-4 py-2 rounded-3 fw-bold">See My Work</a>
+<a href="contact.qmd" class="btn btn-outline-primary px-4 py-2 rounded-3 fw-bold">Contact Me</a>
+:::
+
+:::
 
 ---
 
 ## Featured Projects
 
-*   **[colony-opt](pages/projects.qmd):** Explored optimal resource allocation strategies for ant colonies at varying levels of complexity and under different competitive constraints.
-*   **[pharma-state](pages/projects.qmd):** Presented a two-stage machine learning pipeline to model the physical responses of 1,000 patients to propofol during surgery and identify demographic correlations to the anesthetic.
-*   **[taxi-predict](pages/projects.qmd):** Addressed operational uncertainty in the NYC taxi network by leveraging a random forest regression model against millions of TLC trip records to predict route duration and aid in next-location strategies.
-*   **[glymphatic-ode](pages/projects.qmd):** Developed and analyzed ODE models of the glymphatic system to investigate efficient sleep strategies and examine the potential to recover lost sleep.
+*   **[colony-opt](pages/projects.qmd#colony-opt):** Explored optimal resource allocation strategies for ant colonies at varying levels of complexity and under different competitive constraints.
+*   **[pharma-state](pages/projects.qmd#pharma-state):** Presented a two-stage machine learning pipeline to model the physical responses of 1,000 patients to propofol during surgery and identify demographic correlations to the anesthetic.
+*   **[glymphatic-ode](pages/projects.qmd#glymphatic-ode):** Developed and analyzed ODE models of the glymphatic system to investigate efficient sleep strategies and examine the potential to recover lost sleep.
+*   **[taxi-predict](pages/projects.qmd#taxi-predict):** Addressed operational uncertainty in the NYC taxi network by leveraging a random forest regression model against millions of TLC trip records to predict route duration and aid in next-location strategies.
+
 
 [**View full abstracts and PDF writeups →**](pages/projects.qmd)

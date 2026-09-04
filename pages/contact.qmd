@@ -2,25 +2,26 @@
 title: "Contact"
 ---
 
-I am always interested in discussing mathematical modeling, computational biology collaborations, or prospective analytics and engineering roles. Feel free to reach out directly through any of the channels below.
+I am always interested in discussing mathematical modeling, computational biology collaborations, or prospective job opportunities. Feel free to reach out directly through any of the channels below.
 
 ---
 
 ::: {style="max-width: 550px; margin-top: 1.5rem;"}
 
+```{=html}
 <a href="mailto:tylerjpace1@gmail.com" class="contact-btn">
   <i class="bi bi-envelope-fill" style="font-size: 1.5rem; color: #2d5a27;"></i>
   <div>
     <div style="font-size: 0.85rem; color: #6c757d;">Email</div>
-    <div>your.email@example.com</div>
+    <div>tylerjpace1@gmail.com</div>
   </div>
 </a>
 
-<a href="http://www.linkedin.com/in/pace-tyler" target="_blank" class="contact-btn">
+<a href="https://www.linkedin.com/in/pace-tyler" target="_blank" class="contact-btn">
   <i class="bi bi-linkedin" style="font-size: 1.5rem; color: #2d5a27;"></i>
   <div>
     <div style="font-size: 0.85rem; color: #6c757d;">LinkedIn</div>
-    <div>Connect on LinkedIn</div>
+    <div>linkedin.com/in/pace-tyler</div>
   </div>
 </a>
 
@@ -31,5 +32,4 @@ I am always interested in discussing mathematical modeling, computational biolog
     <div>github.com/tpace31</div>
   </div>
 </a>
-
-:::
+```

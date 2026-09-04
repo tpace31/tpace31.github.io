@@ -2,7 +2,9 @@
 title: "About Me"
 ---
 
-I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.
+Hi, I'm Tyler! I'm a computational modeler who recently graduated with a Bachelor's in Applied Mathematics with an emphasis in mathematical biology. I enjoy abstracting complex systems with mathematical tools to answer questions and solve problems in any context. 
+
+I'm currently looking for a full-time role where I could take on real industry challenges and continue growing as a problem solver. Feel free to reach out if you think I would be a good fit for your team, or if you would be interested in collaborating on a project!
 
 ::: {.d-flex .gap-3 .mb-5 .mt-4}
 <a href="mailto:tylerjpace1@gmail.com" class="btn btn-primary px-4 py-2 rounded-3 fw-bold"><i class="bi bi-envelope me-2"></i>Hire me</a>
@@ -100,10 +102,11 @@ I am an applied mathematics researcher and computational modeler with an emphasi
 <img src="../images/byu_logo.svg" alt="BYU Logo" style="width: 250px;" class="mb-2">
 <div class="fw-bold text-primary">2026</div>
 :::
-::: {.col-md-10}
+::: {.col-md-10 .custom-bullets}
 **Resident Assistant**  
 *Brigham Young University, Residence Life, Helaman Halls* | Provo, UT  
-* Managed 24/7 crisis response and community programming for 40+ first-year students, earning the department's Employee of the Year award (2025) for exceptional leadership.
+
+* Managed 24/7 crisis response and community programming for 40+ first-year students, earning the department's Employee of the Year award (2025) for exceptional leadership
 * *(May 2024 – April 2026)*
 :::
 :::
@@ -113,10 +116,11 @@ I am an applied mathematics researcher and computational modeler with an emphasi
 <img src="../images/safelite_logo.svg" alt="Safelite Logo" style="width: 150px;" class="mb-2">
 <div class="fw-bold text-primary">2025</div>
 :::
-::: {.col-md-10}
+::: {.col-md-10 .custom-bullets}
 **Repair Specialist**  
 *Safelite AutoGlass* | Provo, UT  
-* Independently managed a high-volume service route handling high-value assets while adapting to challenging conditions and delivering excellent face-to-face customer service.
+
+* Independently managed a high-volume service route handling high-value assets while adapting to challenging conditions and delivering excellent face-to-face customer service
 * *(May 2025 – August 2025)*
 :::
 :::
@@ -126,20 +130,24 @@ I am an applied mathematics researcher and computational modeler with an emphasi
 <img src="../images/byu_logo.svg" alt="BYU Logo" style="width: 250px;" class="mb-2">
 <div class="fw-bold text-primary">2024</div>
 :::
-::: {.col-md-10}
+::: {.col-md-10 .custom-bullets}
 **Research Assistant (Global Value Chain)**  
-*Brigham Young University, Residence Life, Helaman Halls* | Provo, UT  
-* Managed and streamlined a data pipeline encoding daily information from 180,000+ firms, creating networks with 415,000+ edges for analysis.
-* Developed statistical tools and algorithms in Python to ensure the accuracy of data gathered and enable dynamic community detection for insights.
-* Collaborated efforts and organized findings with team, presenting at the Conference on Complex Systems in Brazil, October 2023, "Exploring the Dynamic, Global Value Chain".
+*Brigham Young University, Mathematics Department* | Provo, UT  
+
+* Managed and streamlined a data pipeline encoding daily information from 180,000+ firms, creating networks with 415,000+ edges for analysis
+* Developed statistical tools and algorithms in Python to ensure the accuracy of data gathered and enable dynamic community detection for insights
+* Collaborated efforts and organized findings with team, presenting at the Conference on Complex Systems in Brazil, October 2023, "Exploring the Dynamic, Global Value Chain"
 * *(May 2023 – August 2024)*
 :::
 :::
 
 :::
 
-::: {.px-4 .py-5 .mb-5}
+::: {.px-4 .py-5 .mb-5 .custom-bullets}
 ## <i class="bi bi-compass me-2"></i> INTERESTS
 
-**Interests:** Travel and exploration, automotive repair, storytelling and comedy, omnivorous reading. Outside of academics and research, I also enjoy backpacking, keeping my 1996 Toyota Corolla running, cooking international dishes from scratch, and diving into high-concept thrillers.
+* Travel and exploration
+* Automotive repair
+* Storytelling and comedy
+* Omnivorous reading
 :::

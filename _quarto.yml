@@ -7,11 +7,10 @@ project:
 website:
   title: "Tyler Pace"
   navbar:
+    title: "<span title='Home'>Tyler Pace</span>"
     background: primary
-    search: false
+    search: true
     left:
-      - href: index.qmd
-        text: Home
       - href: pages/about.qmd
         text: About
       - href: pages/projects.qmd

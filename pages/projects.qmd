@@ -4,32 +4,32 @@ Below is a selection of my recent work in mathematical biology, statistical mode
 
 ---
 
-### Ant Colony Resource Optimization
+### Ant Colony Resource Optimization {#colony-opt}
 **colony-opt** | *Python, Optimal Control Theory, ODEs, SciPy*
 
-We explore optimal resource allocation strategies for ant colonies at varying levels of complexity and under different constraints. This investigation provides a theoretical framework for competitive resource allocation that extends to economic strategies and other human applications.
+I explore optimal resource allocation strategies for ant colonies at varying levels of complexity and under different constraints. This investigation provides a theoretical framework for competitive resource allocation that extends to economic strategies and other human applications.
 [📄 Download Full PDF](../documents/vol4_project2_writeup.pdf) | [View Repository](https://github.com/tpace31/portfolio_projects/tree/main/colony-opt)
 
 ---
 
-### Identifying Patients' Levels of Consciousness Under Anesthesia
+### Identifying Patients' Levels of Consciousness Under Anesthesia {#pharma-state}
 **pharma-state** | *Python, Kalman Filters, Random Forest, Pharmacokinetics*
 
-In this paper we present a two-stage machine learning pipeline for the estimation and prediction of patients' pharmacological parameters relating to the induction anesthetic propofol. The first stage is to individually model the physical response that one thousand patients had to anesthesia during their surgical procedures. The second stage is to identify correlations between the biological demographic of a patient and how they responded to the anesthetic.
+I present a two-stage machine learning pipeline for the estimation and prediction of patients' pharmacological parameters relating to the induction anesthetic propofol. The first stage is to individually model the physical response that one thousand patients had to anesthesia during their surgical procedures. The second stage is to identify correlations between the biological demographic of a patient and how they responded to the anesthetic.
 [📄 Download Full PDF](../documents/vol3_project2_writeup.pdf) | [View Repository](https://github.com/tpace31/portfolio_projects/tree/main/pharma-state)
 
 ---
 
-### Sleep Deprivation Increases Toxin Buildup in the Brain
+### Sleep Deprivation Increases Toxin Buildup in the Brain {#glymphatic-ode}
 **glymphatic-ode** | *Python, Compartmental Modeling, ODEs, Lyapunov Stability*
 
-In this paper, we develop and analyze ODE models of the glymphatic system, focusing on soluble and fibular amyloid-beta, in order to investigate efficient strategies for obtaining sufficient sleep. Using our results, we examine whether it is possible to recover lost sleep and explore alternative sleep strategies for achieving adequate rest.
+I develop and analyze ODE models of the glymphatic system, focusing on soluble and fibular amyloid-beta, in order to investigate efficient strategies for obtaining sufficient sleep. Using my results, I examine whether it is possible to recover lost sleep and explore alternative sleep strategies for achieving adequate rest.
 [📄 Download Full PDF](../documents/vol4_project1_writeup.pdf) | [View Repository](https://github.com/tpace31/portfolio_projects/tree/main/glymphatic-ode)
 
 ---
 
-### Predicting Operational Efficiency: NYC Taxi Trip Duration
+### Predicting Operational Efficiency: NYC Taxi Trip Duration {#taxi-predict}
 **taxi-predict** | *Python, Random Forest Regressor, Feature Engineering*
 
-Operational uncertainty regarding trip duration and passenger acquisition represents a significant inefficiency within the New York City taxi network. We address these challenges by leveraging a random forest regression model against the extensive historical dataset provided by the NYC Taxi and Limousine Commission to predict route duration and aid in next-location strategies. By analyzing millions of meter-reported trip records, we employ data cleaning and machine learning techniques to derive trip time estimates and pickup location recommendations.
+Operational uncertainty regarding trip duration and passenger acquisition represents a significant inefficiency within the New York City taxi network. I address these challenges by leveraging a random forest regression model against the extensive historical dataset provided by the NYC Taxi and Limousine Commission to predict route duration and aid in next-location strategies. By analyzing millions of meter-reported trip records, I employ data cleaning and machine learning techniques to derive trip time estimates and pickup location recommendations.
 [📄 Download Full PDF](../documents/vol3_project1_writeup.pdf) | [View Repository](https://github.com/tpace31/portfolio_projects/tree/main/taxi-predict)

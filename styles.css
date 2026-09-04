@@ -100,3 +100,18 @@ details.project-preview[open] summary {
   color: #2d5a27;
   transform: translateX(4px);
 }
+
+/* Removes default bullets and uses a custom green arrow */
+.custom-bullets ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+.custom-bullets ul li::before {
+  content: "▹"; /* You can swap this for "-", "→", or "✓" */
+  color: #2d5a27; /* Your primary theme color */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: bold;
+}
