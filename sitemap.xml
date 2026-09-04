@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tpace31.github.io/projects.html</loc>
-    <lastmod>2026-08-31T15:20:56.869Z</lastmod>
+    <loc>https://tpace31.github.io/pages/projects.html</loc>
+    <lastmod>2026-09-02T21:06:05.695Z</lastmod>
   </url>
   <url>
-    <loc>https://tpace31.github.io/contact.html</loc>
-    <lastmod>2026-08-27T23:25:48.221Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tpace31.github.io/about.html</loc>
-    <lastmod>2026-08-27T23:25:48.219Z</lastmod>
+    <loc>https://tpace31.github.io/pages/about.html</loc>
+    <lastmod>2026-09-02T22:40:49.905Z</lastmod>
   </url>
   <url>
     <loc>https://tpace31.github.io/index.html</loc>
-    <lastmod>2026-08-31T15:21:34.727Z</lastmod>
+    <lastmod>2026-09-02T21:15:48.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tpace31.github.io/pages/contact.html</loc>
+    <lastmod>2026-09-02T21:07:07.419Z</lastmod>
   </url>
 </urlset>
