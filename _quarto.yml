@@ -1,5 +1,8 @@
 project:
   type: website
+  resources: 
+    - "documents/"
+    - "images/"
 
 website:
   title: "Tyler Pace"

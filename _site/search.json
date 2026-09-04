@@ -11,7 +11,7 @@
     "href": "pages/about.html",
     "title": "About Me",
     "section": "",
-    "text": "I specialize in applied mathematics with a focus on mathematical biology, statistical modeling, and scientific computing. My academic and computational work centers on modeling biological systems and extracting quantitative insights from complex data."
+    "text": "I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations."
   },
   {
     "objectID": "pages/about.html#biography",
@@ -24,15 +24,15 @@
     "objectID": "pages/about.html#education",
     "href": "pages/about.html#education",
     "title": "About Me",
-    "section": "Education",
-    "text": "Education\nBachelor of Science in Applied Mathematics\nEmphasis in Mathematical Biology\n* Key Coursework: Dynamical Systems, Partial Differential Equations, Statistical Modeling, Machine Learning, Numerical Analysis, Computational Biology."
+    "section": " EDUCATION",
+    "text": "EDUCATION\n\n\n\n2026\n\n\n\nB.S. in Applied and Computational Mathematics (Emphasis in Mathematical Biology) Brigham Young University, Provo, UT\n\nRelevant Coursework: Mathematical Analysis Algorithm Design and Optimization Advanced Linear Algebra Modeling with Data and Uncertainty Modeling with Dynamics and Control Mathematical Biology Molecular Biology Genetics"
   },
   {
     "objectID": "pages/about.html#technical-skills",
     "href": "pages/about.html#technical-skills",
     "title": "About Me",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nProgramming & Scientific Computing: Python (NumPy, SciPy, Pandas, Matplotlib, SymPy), C++, R, LaTeX\nMathematical & Statistical Modeling: Differential Equations, Pharmacokinetics, Compartmental Modeling, Stochastic Simulation, Optimization, Parameter Estimation\nDeveloper Tools: Git, GitHub, Quarto, VS Code, Linux/Bash"
+    "section": " TECHNICAL SKILLS",
+    "text": "TECHNICAL SKILLS\n\n\n LANGUAGES & TOOLS\n\n\nPython C++ SQL LaTeX\n\n\n\n\n LIBRARIES\n\n\nNumPy Pandas SciPy Scikit-Learn iPyParallel PyTorch Matplotlib Seaborn NetworkX\n\n\n\n\n MACHINE LEARNING\n\n\nSupervised: Random Forests Linear & Logistic Regression Naïve Bayes GDA LDA SVM Kernel Methods  Unsupervised: GMM K-Means HMM  Dimensionality Reduction: PCA t-SNE UMAP NMF  Deep Learning: PyTorch Model Development Hyperparameter Tuning\n\n\n\n\n STATISTICS\n\n\nProbability Theory Network Theory Causal Inference Bayesian Inference Time Series (ARIMA, Kalman filters) Sampling (Importance, Rejection, MCMC)\n\n\n\n\n MATHEMATICS\n\n\nNumerical Methods Dynamic Optimization Optimal Control Theory Advanced Linear Algebra Signal Processing (Fourier Analysis, Wavelets)\n\n\n\n\n SPOKEN LANGUAGES\n\n\nSpanish (Fluent) German (Beginner)"
   },
   {
     "objectID": "pages/about.html#experience-research",
@@ -45,8 +45,8 @@
     "objectID": "pages/about.html#interests",
     "href": "pages/about.html#interests",
     "title": "About Me",
-    "section": "Interests",
-    "text": "Interests\nWhen away from the terminal, I enjoy: * Outdoor Exploration: Backpacking, trail hiking, and road trips. * Cooking: Scratch cooking, meal planning, and experimenting with regional recipes. * Fiction: Thrillers and survival fiction with airtight plot structures."
+    "section": " INTERESTS",
+    "text": "INTERESTS\nInterests: Travel and exploration, automotive repair, storytelling and comedy, omnivorous reading. Outside of academics and research, I also enjoy backpacking, keeping my 1996 Toyota Corolla running, cooking international dishes from scratch, and diving into high-concept thrillers."
   },
   {
     "objectID": "index.html",
@@ -75,5 +75,12 @@
     "title": "Contact",
     "section": "",
     "text": "I am always interested in discussing mathematical modeling, computational biology collaborations, or prospective analytics and engineering roles. Feel free to reach out directly through any of the channels below.\n\n\n \n\n&lt;div style=\"font-size: 0.85rem; color: #6c757d;\"&gt;Email&lt;/div&gt;\n&lt;div&gt;your.email@example.com&lt;/div&gt;\n\n\n \n\n&lt;div style=\"font-size: 0.85rem; color: #6c757d;\"&gt;LinkedIn&lt;/div&gt;\n&lt;div&gt;Connect on LinkedIn&lt;/div&gt;\n\n\n \n\n&lt;div style=\"font-size: 0.85rem; color: #6c757d;\"&gt;GitHub&lt;/div&gt;\n&lt;div&gt;github.com/tpace31&lt;/div&gt;"
+  },
+  {
+    "objectID": "pages/about.html#experience",
+    "href": "pages/about.html#experience",
+    "title": "About Me",
+    "section": " EXPERIENCE",
+    "text": "EXPERIENCE\n\n\n\n\n2026\n\n\n\nResident Assistant\nBrigham Young University, Residence Life, Helaman Halls | Provo, UT\n* Managed 24/7 crisis response and community programming for 40+ first-year students, earning the department’s Employee of the Year award (2025) for exceptional leadership. * (May 2024 – April 2026)\n\n\n\n\n\n\n2025\n\n\n\nRepair Specialist\nSafelite AutoGlass | Provo, UT\n* Independently managed a high-volume service route handling high-value assets while adapting to challenging conditions and delivering excellent face-to-face customer service. * (May 2025 – August 2025)\n\n\n\n\n\n\n2024\n\n\n\nResearch Assistant (Global Value Chain)\nBrigham Young University, Residence Life, Helaman Halls | Provo, UT\n* Managed and streamlined a data pipeline encoding daily information from 180,000+ firms, creating networks with 415,000+ edges for analysis. * Developed statistical tools and algorithms in Python to ensure the accuracy of data gathered and enable dynamic community detection for insights. * Collaborated efforts and organized findings with team, presenting at the Conference on Complex Systems in Brazil, October 2023, “Exploring the Dynamic, Global Value Chain”. * (May 2023 – August 2024)"
   }
 ]

@@ -2,41 +2,144 @@
 title: "About Me"
 ---
 
-## Biography
-I specialize in applied mathematics with a focus on mathematical biology, statistical modeling, and scientific computing. My academic and computational work centers on modeling biological systems and extracting quantitative insights from complex data.
+I am an applied mathematics researcher and computational modeler with an emphasis in mathematical biology. My work focuses on translating dynamic biological phenomena and complex datasets into rigorous mathematical frameworks using differential equations, statistical modeling, and computational simulations.
 
----
+::: {.d-flex .gap-3 .mb-5 .mt-4}
+<a href="mailto:tylerjpace1@gmail.com" class="btn btn-primary px-4 py-2 rounded-3 fw-bold"><i class="bi bi-envelope me-2"></i>Hire me</a>
+<a href="../documents/tylerpace_resume_aug2026.pdf" class="btn btn-outline-primary px-4 py-2 rounded-3 fw-bold"><i class="bi bi-file-earmark-pdf me-2"></i>Resume</a>
+<a href="projects.qmd" class="btn btn-outline-primary px-4 py-2 rounded-3 fw-bold"><i class="bi bi-code-slash me-2"></i>View projects</a>
+:::
 
-## Education
+::: {.px-4 .py-5 .bg-light .rounded-4 .mb-5}
+## <i class="bi bi-mortarboard-fill me-2"></i> EDUCATION
 
-**Bachelor of Science in Applied Mathematics**  
-*Emphasis in Mathematical Biology*  
-* Key Coursework: Dynamical Systems, Partial Differential Equations, Statistical Modeling, Machine Learning, Numerical Analysis, Computational Biology.
+::: {.row .align-items-center}
+::: {.col-md-2 .text-center}
+<div class="d-inline-flex align-items-center justify-content-center border border-2 border-primary rounded-circle fw-bold text-primary bg-white" style="width: 50px; height: 50px; font-size: 1.00rem; line-height: 1;">2026</div>
+:::
+::: {.col-md-10}
+<span class="fs-5 fw-bold text-primary">B.S. in Applied and Computational Mathematics</span> <span class="fs-5 fst-italic text-secondary">(Emphasis in Mathematical Biology)</span><br>
+<span class="fst-italic text-secondary" style="font-size: 1.1rem;">Brigham Young University, Provo, UT</span>
 
----
+<div class="mt-2">
+**Relevant Coursework:** 
+<span class="skill-tag">Mathematical Analysis</span> <span class="skill-tag">Algorithm Design and Optimization</span> <span class="skill-tag">Advanced Linear Algebra</span> <span class="skill-tag">Modeling with Data and Uncertainty</span> <span class="skill-tag">Modeling with Dynamics and Control</span> <span class="skill-tag">Mathematical Biology</span> <span class="skill-tag">Molecular Biology</span> <span class="skill-tag">Genetics</span>
+</div>
+:::
+:::
 
-## Technical Skills
+:::
 
-* **Programming & Scientific Computing:** Python (`NumPy`, `SciPy`, `Pandas`, `Matplotlib`, `SymPy`), C++, R, LaTeX
-* **Mathematical & Statistical Modeling:** Differential Equations, Pharmacokinetics, Compartmental Modeling, Stochastic Simulation, Optimization, Parameter Estimation
-* **Developer Tools:** Git, GitHub, Quarto, VS Code, Linux/Bash
+::: {.px-4 .py-5 .mb-5}
+## <i class="bi bi-wrench-adjustable me-2"></i> TECHNICAL SKILLS
 
----
+::: {.row .border-bottom .border-top .py-4 .align-items-center}
+::: {.col-md-3 .fw-bold .text-secondary}
+<i class="bi bi-code-square me-2"></i> LANGUAGES & TOOLS
+:::
+::: {.col-md-9}
+<span class="skill-tag">Python</span> <span class="skill-tag">C++</span> <span class="skill-tag">SQL</span> <span class="skill-tag">LaTeX</span>
+:::
+:::
 
-## Experience & Research
+::: {.row .border-bottom .py-4 .align-items-center}
+::: {.col-md-3 .fw-bold .text-secondary}
+<i class="bi bi-box-seam me-2"></i> LIBRARIES
+:::
+::: {.col-md-9}
+<span class="skill-tag">NumPy</span> <span class="skill-tag">Pandas</span> <span class="skill-tag">SciPy</span> <span class="skill-tag">Scikit-Learn</span> <span class="skill-tag">iPyParallel</span> <span class="skill-tag">PyTorch</span> <span class="skill-tag">Matplotlib</span> <span class="skill-tag">Seaborn</span> <span class="skill-tag">NetworkX</span>
+:::
+:::
 
-**Mathematics Research Assistant**  
-* Designed and implemented computational models to simulate biological and dynamical processes.
-* Developed algorithms in Python and R for parameter estimation and data visualization.
+::: {.row .border-bottom .py-4 .align-items-center}
+::: {.col-md-3 .fw-bold .text-secondary}
+<i class="bi bi-cpu me-2"></i> MACHINE LEARNING
+:::
+::: {.col-md-9}
+**Supervised:** <span class="skill-tag">Random Forests</span> <span class="skill-tag">Linear & Logistic Regression</span> <span class="skill-tag">Naïve Bayes</span> <span class="skill-tag">GDA</span> <span class="skill-tag">LDA</span> <span class="skill-tag">SVM</span> <span class="skill-tag">Kernel Methods</span> <br>
+**Unsupervised:** <span class="skill-tag">GMM</span> <span class="skill-tag">K-Means</span> <span class="skill-tag">HMM</span> <br>
+**Dimensionality Reduction:** <span class="skill-tag">PCA</span> <span class="skill-tag">t-SNE</span> <span class="skill-tag">UMAP</span> <span class="skill-tag">NMF</span> <br>
+**Deep Learning:** <span class="skill-tag">PyTorch Model Development</span> <span class="skill-tag">Hyperparameter Tuning</span>
+:::
+:::
 
+::: {.row .border-bottom .py-4 .align-items-center}
+::: {.col-md-3 .fw-bold .text-secondary}
+<i class="bi bi-graph-up me-2"></i> STATISTICS
+:::
+::: {.col-md-9}
+<span class="skill-tag">Probability Theory</span> <span class="skill-tag">Network Theory</span> <span class="skill-tag">Causal Inference</span> <span class="skill-tag">Bayesian Inference</span> <span class="skill-tag">Time Series (ARIMA, Kalman filters)</span> <span class="skill-tag">Sampling (Importance, Rejection, MCMC)</span>
+:::
+:::
+
+::: {.row .border-bottom .py-4 .align-items-center}
+::: {.col-md-3 .fw-bold .text-secondary}
+<i class="bi bi-calculator me-2"></i> MATHEMATICS
+:::
+::: {.col-md-9}
+<span class="skill-tag">Numerical Methods</span> <span class="skill-tag">Dynamic Optimization</span> <span class="skill-tag">Optimal Control Theory</span> <span class="skill-tag">Advanced Linear Algebra</span> <span class="skill-tag">Signal Processing (Fourier Analysis, Wavelets)</span>
+:::
+:::
+
+::: {.row .border-bottom .py-4 .align-items-center}
+::: {.col-md-3 .fw-bold .text-secondary}
+<i class="bi bi-chat-quote me-2"></i> SPOKEN LANGUAGES
+:::
+::: {.col-md-9}
+<span class="skill-tag">Spanish (Fluent)</span> <span class="skill-tag">German (Beginner)</span>
+:::
+:::
+
+:::
+
+::: {.px-4 .py-5 .bg-light .rounded-4 .mb-5}
+## <i class="bi bi-building me-2"></i> EXPERIENCE
+
+::: {.row .mb-5}
+::: {.col-md-2 .text-center}
+<img src="../images/byu_logo.svg" alt="BYU Logo" style="width: 250px;" class="mb-2">
+<div class="fw-bold text-primary">2026</div>
+:::
+::: {.col-md-10}
 **Resident Assistant**  
-* Facilitated residential community development, managed conflict resolution, and organized large-scale educational programs.
+*Brigham Young University, Residence Life, Helaman Halls* | Provo, UT  
+* Managed 24/7 crisis response and community programming for 40+ first-year students, earning the department's Employee of the Year award (2025) for exceptional leadership.
+* *(May 2024 – April 2026)*
+:::
+:::
 
----
+::: {.row .mb-5}
+::: {.col-md-2 .text-center}
+<img src="../images/safelite_logo.svg" alt="Safelite Logo" style="width: 150px;" class="mb-2">
+<div class="fw-bold text-primary">2025</div>
+:::
+::: {.col-md-10}
+**Repair Specialist**  
+*Safelite AutoGlass* | Provo, UT  
+* Independently managed a high-volume service route handling high-value assets while adapting to challenging conditions and delivering excellent face-to-face customer service.
+* *(May 2025 – August 2025)*
+:::
+:::
 
-## Interests
+::: {.row .mb-4}
+::: {.col-md-2 .text-center}
+<img src="../images/byu_logo.svg" alt="BYU Logo" style="width: 250px;" class="mb-2">
+<div class="fw-bold text-primary">2024</div>
+:::
+::: {.col-md-10}
+**Research Assistant (Global Value Chain)**  
+*Brigham Young University, Residence Life, Helaman Halls* | Provo, UT  
+* Managed and streamlined a data pipeline encoding daily information from 180,000+ firms, creating networks with 415,000+ edges for analysis.
+* Developed statistical tools and algorithms in Python to ensure the accuracy of data gathered and enable dynamic community detection for insights.
+* Collaborated efforts and organized findings with team, presenting at the Conference on Complex Systems in Brazil, October 2023, "Exploring the Dynamic, Global Value Chain".
+* *(May 2023 – August 2024)*
+:::
+:::
 
-When away from the terminal, I enjoy:
-* **Outdoor Exploration:** Backpacking, trail hiking, and road trips.
-* **Cooking:** Scratch cooking, meal planning, and experimenting with regional recipes.
-* **Fiction:** Thrillers and survival fiction with airtight plot structures.
+:::
+
+::: {.px-4 .py-5 .mb-5}
+## <i class="bi bi-compass me-2"></i> INTERESTS
+
+**Interests:** Travel and exploration, automotive repair, storytelling and comedy, omnivorous reading. Outside of academics and research, I also enjoy backpacking, keeping my 1996 Toyota Corolla running, cooking international dishes from scratch, and diving into high-concept thrillers.
+:::
